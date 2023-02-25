@@ -1,0 +1,73 @@
+/*! navbar.ejs */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
+}
+.search input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+.search input:focus{
+    outline: none;
+    border: 1px solid lightblue;
+}
+.signin button{
+    background-color: white;
+    color: #065fd4;
+    font-weight: bold;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.signin button:hover{
+    background-color: lightblue;
+}
+
+/*! home.ejs */
+.categories a{
+    text-decoration: none;
+    color: black;
+    background-color: grey;
+    /* padding: 7px; */
+    padding: 5px 10px;
+    margin: 0px 6px;
+    /* margin-left: 40px; */
+    border-radius: 10px;
+    font-size: 16px;
+}
+.categories{
+    /* margin-top: 10px; */
+    margin: 10px 30px;
+}
+
+/*! videos */
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+.videos img{
+    width: 465px;
+    height: 200px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 0px 5px 2px;
+}
+.videos p{
+    margin: 10px;
+    font-size: 20px;
+}
+.videos h1{
+    margin: 10px;
+}
+.videoInfo{
+    /* display: flex; */
+    /* margin: 10px; */
+}
